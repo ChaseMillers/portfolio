@@ -18,7 +18,7 @@ const Rocket = () =>{
 
             <div className='job-content'>
                 <div className="job-img-container">
-                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7092131462149206016?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>   
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7092131462149206016?compact=1" height="399" width="710" frameBorder="0" allowFullScreen="" title="Embedded post"></iframe>   
                 </div>
                 
                 <p >

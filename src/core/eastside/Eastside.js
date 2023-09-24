@@ -26,6 +26,7 @@ const Freelance = () =>{
                 </div>
                 <p >
                 Eastside Wedding Videography needed greater flexibility for their content and a website they could be proud of. I was the lead developer. 
+                </p>
                 <ul>
                     <li>
                     <span className='bold'>Leading Development - </span> 
@@ -36,7 +37,7 @@ const Freelance = () =>{
                     </li>
                 </ul>
                
-                </p>
+               
             
              
             </div>
