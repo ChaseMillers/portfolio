@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, ::after, ::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -msbox-sizing: border-box;
 }
 
+body{
+  font-family: 'Literata', serif;
+  color: #292a2c;
+  background-color: #f1efee;
+  margin: 0;
+  padding: 0;
+}
+
+.mini-title{
+  color: rgb(185, 1, 1);
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+
+.M {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+.indent{
+  text-indent: 30px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo-container{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+.App-logo-color, .App-logo-shader {
+  height: 200px;
+  pointer-events: none;
+}
+.App-logo-color{
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: fadeIn 1s infinite alternate;
+}
+@keyframes fadeIn {
+ from { opacity: 0; }
+}
+.App-logo-shader{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  mask-image: linear-gradient(to top, black, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, black, transparent 100%);
+}
+
+
+.loading{
+  margin-top: 50px;
+  justify-content: center;
 }

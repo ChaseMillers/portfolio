@@ -1,0 +1,181 @@
+.title {
+    font-size: 50px;
+    margin-top: 40px;
+    z-index: 1;
+}
+@media screen and (max-width: 800px) {
+    .title {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+  }
+@media screen and (max-width: 800px) {
+.title {
+    margin-top: 70px;
+    font-size: 40px;
+}
+}
+section#intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container{
+    z-index: 6;
+    max-width: 700px;
+    margin-top: -180px;
+}
+@media screen and (max-width: 800px) {
+    .about-container {
+        margin-top: -16%;
+        max-width: 500px;
+    }
+  }
+.about-container p{
+    padding: 5px;
+    font-size: 21px;
+
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media screen and (max-width: 800px) {
+    .about-container p{
+        font-size: 18px;
+    }
+  }
+
+
+.hot-box{
+    padding: 220px;
+    border-radius: 50%;
+    /* background-color: rgba(255, 0, 0, 0.466); */
+    position: absolute;
+    display: inline-block;
+    z-index: 4;
+    margin-top: 180px;
+    margin-left: 180px;
+}
+@media screen and (max-width: 800px) {
+    .hot-box{
+        margin-top: 22%;
+        margin-left: 22%;
+        padding: 28%;
+    }
+  }
+
+.img-eighty{
+    width: 800px;
+}
+@media screen and (max-width: 800px) {
+    .img-eighty{
+        width: 100%;
+    }
+  }
+
+.compass-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.compass{
+    margin-top: -180px;
+    overflow: hidden;
+    position: relative;
+}
+@media screen and (max-width: 800px) {
+    .compass{
+        margin-top: -90px;
+    }
+  }
+
+.outer-ring{
+    z-index: 0;
+    opacity: 20%;
+    position: absolute;
+    /* Animation */
+    animation-name: spin;
+    animation-duration: 110s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.background-ring{
+    z-index: 0;
+    opacity: 10%;
+    position: absolute;
+    /* Animation */
+    animation-name: spin-other;
+    animation-duration: 110s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+    width: 1300px;
+    margin-top: -260px;
+    margin-left: -260px;
+}
+@keyframes spin-other {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
+}
+@media screen and (max-width: 800px) {
+    .background-ring{
+        display: none;
+    }
+  }
+
+
+.inner-ring{
+   z-index: 1;
+   position: absolute;
+   display: inline-block;
+   rotate: 90deg;
+    /* Animation */
+    transition: transform 1s linear;
+    
+}
+.hot-box:hover ~ .inner-ring{
+    transform: rotate(90deg);
+}
+
+.no-rotate{
+    z-index: 2;
+    position: absolute;
+    transition: transform 1s linear;
+}
+.hot-box:hover ~ .no-rotate{
+    transform: rotate(-90deg);
+}
+
+
+.logo-compass{
+    z-index: 3;
+    rotate: -90deg;
+    position: absolute;
+    transition: transform 1s linear;
+    /* display: inline-block; */
+}
+.hot-box:hover ~ .logo-compass{
+    transform: rotate(90deg);
+}
+
+.words-compass{
+    position: relative;
+}

@@ -1,0 +1,31 @@
+After finding correct tables.
+For BOTH Attributes and Entities Sheet
+Collect "Sprint/Metro/Samson" Source name and Entity Type from Entities.
+ex "BACKOUT_REASON_CODE", "Reference || Master"
+
+Collect them into a hashmap as objects with Attribute names as Keys.
+When rebuilding objects, replace source location with proper alias.
+example: BACKOUT_REASON_CODE.BCK_RSN_TYPE = B.BCK_RSN_TYPE
+
+Ex: of Source mapping with only one Table sourced. 
+BACKOUT_REASON_CODE.BCK_RSN_TYPE
+"SPRINT"
+
+Features:
+Remove detection for all caps in tablename space. 
+Instead remove underscore and replace with spaces.
+
+NEEDS to be able to handle multiple keys. ex: Loan Item Discount
+NEEDS to be able to handle multiple joined sources. ex: PAYMENT METHOD
+
+receives json structure from API:
+Json response = [
+        [{value:"SELECT", colorCode:"blue"}],
+        [{value:"SAMSON", colorCode:"red"},{value:"As", colorCode:"blue"},{value:"tableName", colorCode:"black"}]
+        etc..
+    ]
+
+
+While begining still isn't automated.
+Need to be able to click a button on left of line to add: (TRIM, COALESCE, CAST)
+Ex: Payment Source 
