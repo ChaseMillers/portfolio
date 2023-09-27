@@ -23,13 +23,18 @@ const TMobile = () =>{
                 
                 <p >
                 Joined The ML/OPs Team within the Billing Data and Intelligence Org. 
-                Assisted with multiple Microservices, data pipelines, Databases, and cloud deployment projects. 
+                Developed multiple Microservices, data pipelines, Databases, and cloud deployment projects. 
                 Notable accomplishments include:
                 </p>
                 <ul>
                     <li>
-                        <span className='bold'>Leading Automation - </span>The most significant was pre-data scans that notified the dev’s 
-                        when the data they were bringing in was flawed and where. This was all done through an API 
+                        <span className='bold'>Leading Automation - </span>Data quality issues was our top complaint from clients. So, I built data scans for source tables to notified the dev’s  
+                        when the data was flawed and where. I also built data scans on target tables that detected  
+                        an overlooked issue of leading and trailing spaces on all our tables throughout various columns.  
+                        The amount of tables and data we manage is massive, so developers decided to add trim on all Varchar and Char columns to the views as a bandaid solution. My API was able to pinpoint the columns for us to take care of  
+                        the problem at the transformer level instead. Thus, saving a massive amount of time, money and processing on all our client queries.  
+                        This was all done through an API  
+
                         I developed that allowed me to be Architect, Lead Developer, and Product Owner. 
                     </li>
                     <li>
@@ -46,13 +51,12 @@ const TMobile = () =>{
                     </li>
                     <li>
                         <span className='bold'>Leading Test Coverage from 0 to 100% - </span> 
-                        Was brought onto an API project with 0% test coverage. The engineers were unsure how to 
+                        I was brought onto an API project with 0% test coverage. The engineers were unsure how to 
                         implement new TMO standard test coverage and I was largely involved in that initiative 
                         as I wrote the Test Driven Development book for my org. After I implemented 
                         test coverage and modularizing spaghetti code we were able to deploy to our production 
                         enviroment with 100% test coverage.
                     </li>
-                   
 
                 </ul>
                      
