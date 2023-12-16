@@ -28,36 +28,30 @@ const TMobile = () =>{
                 </p>
                 <ul>
                     <li>
-                        <span className='bold'>Leading Automation - </span>Data quality issues was our top complaint from clients. So, I built data scans for source tables to notified the dev’s  
-                        when the data was flawed and where. I also built data scans on target tables that detected  
-                        an overlooked issue of leading and trailing spaces on all our tables throughout various columns.  
-                        The amount of tables and data we manage is massive, so developers decided to add trim on all Varchar and Char columns to the views as a bandaid solution. My API was able to pinpoint the columns for us to take care of  
-                        the problem at the transformer level instead. Thus, saving a massive amount of time, money and processing on all our client queries.  
-                        This was all done through an API  
+                        <span className='bold'>Leading Automation - </span>
+                        <ul>
+                        <li>Built pipelines that gathered data from within T-Mobiles Data ecosystem, 
+                        that reported back key insights into our data quality. </li>
 
-                        I developed that allowed me to be Architect, Lead Developer, and Product Owner. 
+                        <li>Automated tasks such as identifying missing tables, attributes, broken views, 
+                        bad data entries, database to database consistency, and errors in LDMs given to clients.</li> 
+                        </ul>
                     </li>
                     <li>
-                        <span className='bold'>Leading Security – </span>One of the API projects was receiving F 
-                        security ratings during an Aqua Scan which uses the National Vulnerabilities Database for 
-                        reference. The lead developer was gone, so I was put in charge just a week before the API 
-                        went live to our clients. 
-                        Worked around the clock to fix all critical vulnerabilities including: 
-                            <ul>
-                                <li>CVE-2023-20873: Cloud Foundry security bypass susceptibility.</li>
-                                <li>CVE-2022-1471:  Remote code execution susceptibility.</li>
-                                <li>CVE-2016-1000027: Remote code execution susceptibility.</li>
-                            </ul>
+                        <span className='bold'>Leading Development – </span>
+                        <ul>
+                            <li>
+                                Lead my own microservice development from start to production launch. The API was built for 
+                                tracking and reporting Data quality metrics and automating developer tasks within our org.
+                            </li>
+                            <li>
+                                Leveraged and maintained applications such as Gitlab pipelines, Aqua Scan, Kubernetes, Azure,  
+                                and Cloud databases to ensure smooth, reliable, consistent operations of my applications 
+                            </li>
+                
+                        </ul>
                     </li>
-                    <li>
-                        <span className='bold'>Leading Test Coverage from 0 to 100% - </span> 
-                        I was brought onto an API project with 0% test coverage. The engineers were unsure how to 
-                        implement new TMO standard test coverage and I was largely involved in that initiative 
-                        as I wrote the Test Driven Development book for my org. After I implemented 
-                        test coverage and modularizing spaghetti code we were able to deploy to our production 
-                        enviroment with 100% test coverage.
-                    </li>
-
+                
                 </ul>
                      
              

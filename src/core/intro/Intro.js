@@ -25,8 +25,8 @@ const Intro = () => {
               <div className='about-container'>
                 <h2 className='M mini-title'>ABOUT</h2>
                 <p>
-                Software Engineer who specializes in solving problems. 
-                Strive to be a leader, staying customer focused and driving results.   
+                Software Engineer who specializes in solving problems. I strive to lead, staying customer obsessed, 
+                building creative solutions and driving results.  
                 Grew up in the Seattle area, working alongside talented people, striving for a common goal of making amazing applications. 
                 </p>
               </div>

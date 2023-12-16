@@ -24,17 +24,17 @@ const Amazon = () =>{
                 <p >
                     Amazon Marketplace lets customers view special products in AR using their phone. 
                     My job was to help enhance the VR product development pipeline.
-                    My responsibilities include upkeeping legacy application scripts, and testing new ways 
+                    My responsibilities included pioneering new ways to improve efficiency, 
+                    upkeeping legacy application scripts, and testing new ways  
                     to automate pipelines through research, and ML capability testing. 
                 </p>
                 <ul>
                   <li>
-                    <span className='bold'>Leading Automation -</span> I noticed lots of time wasted on prep work for starting and submitting VR projects. So I 
-                    automated that whole processes. The automation involved taking a ML generated 3D package, 
-                    setting it up within a 3D editing application, and automating the package prep work for 
-                    it to be uploaded to the next phase. This saved on average 6 minutes 
-                    of work per project, with an average of 10 projects per day, saving 60 minutes per day for each 3D Artist.
-                    With 4-day work weeks, each Artist saved 240 minutes per week. 
+                    <span className='bold'>Leading Automation -</span> 
+                    Developed python scripts that synced in with developer tools to automate tasks. 
+                    This automation involved taking a ML generated 3D package, setting it up within a 
+                    3D editing application, and automating the package prep work for it to be uploaded 
+                    to QA testing. This automation saved around 3 hours of work per 3D Artist each week 
                     </li>  
                     
                 </ul>     

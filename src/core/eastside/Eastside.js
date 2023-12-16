@@ -33,7 +33,7 @@ const Freelance = () =>{
                         Built the website in React to achieve custom interactions. Synced it to Google analytics so they could gather insights 
                         on their traffic and customer visit rates. Connected the website to an automated email service that allowed them 
                         manual customization on all email marketing with the convenience of a third-party interface. I conducted user interview testing 
-                        with the final product and designed the application to appeal to the target audience.  
+                        and ensured that the application was designed to appeal to the target audience.  
                     </li>
                 </ul>
                
