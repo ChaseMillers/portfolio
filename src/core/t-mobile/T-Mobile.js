@@ -41,12 +41,12 @@ const TMobile = () =>{
                         <span className='bold'>Leading Development – </span>
                         <ul>
                             <li>
-                                Lead my own microservice development from start to production launch. The API was built for 
-                                tracking and reporting Data quality metrics and automating developer tasks within our org.
+                                Lead microservice development from conception to production launch. The API was built for 
+                                tracking and reporting Data quality metrics as well as automating developer tasks within our org.
                             </li>
                             <li>
-                                Leveraged and maintained applications such as Gitlab pipelines, Aqua Scan, Kubernetes, Azure,  
-                                and Cloud databases to ensure smooth, reliable, consistent operations of my applications 
+                                Leveraged and maintained applications such as Gitlab pipelines, Aqua Scan, Kubernetes, Azure, Jenkins,  
+                                and Cloud databases to ensure smooth, reliable operations of my applications. 
                             </li>
                 
                         </ul>
