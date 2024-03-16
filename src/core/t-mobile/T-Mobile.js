@@ -31,7 +31,7 @@ const TMobile = () =>{
                         <span className='bold'>Leading Automation - </span>
                         <ul>
                         <li>Lead multiple APIs and microservices projects with CI/CD pipelines for automating processes, 
-                            tracking procedures, data flow and data quality reporting. Provided data insights and give transparency to my org. 
+                            tracking procedures, data flow and data quality reporting. Provided data insights and gave transparency to my org. 
                             Sought out customer pain points and needs, conducting interviews with our clients when needed</li>
 
                         <li>Automated tasks such as identifying missing data, tables, attributes, broken views, 
