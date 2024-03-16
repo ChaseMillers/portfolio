@@ -30,10 +30,11 @@ const TMobile = () =>{
                     <li>
                         <span className='bold'>Leading Automation - </span>
                         <ul>
-                        <li>Built pipelines that gathered data from within T-Mobiles Data ecosystem, 
-                        that reported back key insights into our data quality. </li>
+                        <li>Lead multiple APIs and microservices projects with CI/CD pipelines for automating processes, 
+                            tracking procedures, data flow and data quality reporting. Provided data insights and give transparency to my org. 
+                            Sought out customer pain points and needs, conducting interviews with our clients when needed</li>
 
-                        <li>Automated tasks such as identifying missing tables, attributes, broken views, 
+                        <li>Automated tasks such as identifying missing data, tables, attributes, broken views, 
                         bad data entries, database to database consistency, and errors in LDMs given to clients.</li> 
                         </ul>
                     </li>
